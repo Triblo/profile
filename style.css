@@ -8,8 +8,8 @@ body {
 #background-img {
 background: url(https://unsplash.com/photos/SaYsHAtIZ1E);
 background-size: cover;
-z-index: 1;
-positi
+z-index: 10;
+position: fixed
 }
 
 h1 {
@@ -39,9 +39,10 @@ a:hover {
 .container {
   width: 500px;
   margin: 0 auto;
+  position: fixed;
   box-sizing: border-box;
   text-align: center;
-  z-index: 10;
+  z-index: 5;
 }
 
 .card {
@@ -51,7 +52,7 @@ a:hover {
   border: 1px solid  #5e6a81;
   border-radius: 4px;
   box-shadow: 0px 0px 30px rgba(0,0,0,.5);
-  z-index: 12;
+  z-index: 1;
 }
 
 .img-circle {
