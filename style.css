@@ -34,6 +34,7 @@ a:hover {
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
+  z-index: 2;
 }
 
 .card {
@@ -75,6 +76,7 @@ a:hover {
 
 #background-img {
   background-size: cover;
+  z-index: -1;
 }
 
 @media (max-width: 960px) {
