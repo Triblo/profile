@@ -5,6 +5,13 @@ body {
   line-height: 1.5em;
 }
 
+#background-img {
+background: url(https://unsplash.com/photos/SaYsHAtIZ1E);
+background-size: cover;
+z-index: 1;
+positi
+}
+
 h1 {
   font-weight: 700;
   font-size: 40px;
@@ -34,7 +41,7 @@ a:hover {
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
-  z-index: 2;
+  z-index: 10;
 }
 
 .card {
@@ -44,6 +51,7 @@ a:hover {
   border: 1px solid  #5e6a81;
   border-radius: 4px;
   box-shadow: 0px 0px 30px rgba(0,0,0,.5);
+  z-index: 12;
 }
 
 .img-circle {
@@ -75,8 +83,8 @@ a:hover {
 }
 
 #background-img {
-  background-size: cover;
-  z-index: -1;
+  size: cover;
+  z-index: 1;
 }
 
 @media (max-width: 960px) {
