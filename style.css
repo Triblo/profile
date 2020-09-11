@@ -17,6 +17,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 1.5em;
+  background-color: #ecdfdd;
 }
 
 h1
@@ -91,6 +92,7 @@ a {
 .bttn-round {
   background-color: var(--main-blue);
   color: var(--main-black);
+
   border-radius: 20px;
   padding: 10px;
   font-family: inherit;
