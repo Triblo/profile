@@ -1,6 +1,6 @@
 :root {
   --main-blue: rgb(117, 159, 188);
-  --main-white: rgb(254, 233, 211);
+  --main-white: rgb(255, 245, 235);
   --main-purple: rgb(185, 184, 211);
   --main-black: rgb(59, 38, 46);
   --main-yellow: rgb(253, 214, 149);
@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--main-white);
-  color: #362530;
+  color: var(--main-black);
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 1.5em;
@@ -46,15 +46,12 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--main-blue);
-}
-
 .container {
   width: 500px;
-  margin: 0 auto;
+  margin: 20px auto;
   box-sizing: border-box;
   text-align: center;
+  background-color: var(--main-purple);
 }
 
 .card {
@@ -62,7 +59,7 @@ a:hover {
   margin: 20px;
   background-color: var(--main-white);
   border: 1px solid  var(--main-blue);
-  border-radius: 4px;
+  border-radius: 5px;
   box-shadow: 0px 0px 30px rgba(0,0,0,.5);
 }
 
@@ -82,30 +79,47 @@ a:hover {
   padding: 0px 20px;
 }
 
+.list-inline li i {
+  color: var(--main-blue);
+}
+
+.list-inline li i:hover {
+  color: var(--main-green);
+  background-color: var(--main-black);
+}
+
 .bttn-round {
-  border: 2px solid var(--main-blue);
+  background-color: var(--main-blue);
+  color: var(--main-black);
   border-radius: 20px;
   padding: 10px;
   font-family: inherit;
-  font-weight: 300px;
 }
 
 .bttn-round:hover {
-  background-color: var(--main-white);
+  background-color: var(--main-green);
 }
 
-@media (max-width: 960px) {
+@media (min-width: 540px) {
   .container {
-    width: 700px;
+    width: 520px;
   }
 }
-@media (max-width: 720px) {
+
+@media (min-width: 720px) {
   .container {
-    width: 500px;
+    width: 680px;
   }
 }
-@media (max-width: 540px) {
+
+@media (min-width: 960px) {
   .container {
-    width: 300px;
+    width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1120px;
   }
 }
