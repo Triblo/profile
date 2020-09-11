@@ -1,5 +1,19 @@
+:root {
+  --main-blue: rgb(117, 159, 188);
+  --main-white: rgb(254, 233, 211);
+  --main-purple: rgb(185, 184, 211);
+  --main-black: rgb(59, 38, 46);
+  --main-yellow: rgb(253, 214, 149);
+  --main-green: rgb(144, 195, 200);
+  --main-red: rgb(135, 19, 23);
+  --main-brown: rgb(110, 88, 18);
+  --main-gray: rgb(105, 129, 142);
+  --main-pink: rgb(215, 75, 133);
+}
+
+
 body {
-  background-color: #f2eeee;
+  background-color: var(--main-white);
   color: #362530;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
